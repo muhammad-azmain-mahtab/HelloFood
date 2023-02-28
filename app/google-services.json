@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924206647270",
+    "project_id": "hellofood-c1d85",
+    "storage_bucket": "hellofood-c1d85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924206647270:android:b1d6f86a7a8bba8f6ff827",
+        "android_client_info": {
+          "package_name": "com.example.hellofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924206647270-75ttltvqjd9djad3ci75i0egtpu8ubh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVVZn-SeQcgLzMBIAp_2HgRdNqAoXIA2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924206647270-75ttltvqjd9djad3ci75i0egtpu8ubh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

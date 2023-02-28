@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_cartImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fooddeliveryappline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_cartName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Bangla Khana"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@id/img_cartImage"
+            app:layout_constraintTop_toTopOf="@id/img_cartImage" />
+
+        <TextView
+            android:id="@+id/tv_cartPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_cartName" />
+
+        <TextView
+            android:id="@+id/tv_qtyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:text="Quantity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_cartName"/>
+
+        <TextView
+            android:id="@+id/tv_cartQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingHorizontal="10dp"
+            android:text="1"
+            app:layout_constraintEnd_toEndOf="@id/tv_qtyText"
+            app:layout_constraintStart_toStartOf="@id/tv_qtyText"
+            app:layout_constraintTop_toBottomOf="@id/tv_qtyText" />
+
+        <ImageView
+            android:id="@+id/img_cartMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="@id/tv_cartQuantity"
+            app:layout_constraintEnd_toStartOf="@id/tv_cartQuantity"
+            app:layout_constraintTop_toTopOf="@id/tv_cartQuantity"
+            app:srcCompat="@drawable/ic_baseline_minus_24" />
+
+        <ImageView
+            android:id="@+id/img_cartPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="@id/tv_cartQuantity"
+            app:layout_constraintStart_toEndOf="@id/tv_cartQuantity"
+            app:layout_constraintTop_toTopOf="@id/tv_cartQuantity"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Tk "
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_cartName"
+            app:layout_constraintTop_toBottomOf="@+id/tv_cartName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
