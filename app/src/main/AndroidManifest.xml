@@ -23,7 +23,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyDZSupvwiU0M0dT1pZAfH9fBEdHzV8wWdA" />
 
         <activity
             android:name=".PaymentSuccessDeliveryActivity"
@@ -33,9 +33,9 @@
         <activity
             android:name=".PaymentSuccessActivity"
             android:exported="false" />
-        <activity
-            android:name=".AustCanteenActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".AustCanteenActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".AdminActivity"
             android:exported="false" />
@@ -48,9 +48,9 @@
         <activity
             android:name=".ShopMenuActivity"
             android:exported="false" />
-        <activity
-            android:name=".ShopMenyActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".ShopMenyActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
